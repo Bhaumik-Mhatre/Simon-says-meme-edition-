@@ -47,7 +47,7 @@ function showNewElement(sequence) {
 }
 
 function makeLosingSound(){
-    var losingSound = ["sounds/sound1.mp3", "sounds/sound2.mp3", "sounds/sound3.mp3", "sounds/sound3.mp3"];
+    var losingSound = ["sounds/sound1.mp3", "sounds/sound2.mp3", "sounds/sound3.mp3", "sounds/sound4.mp3"];
     var randomSound = losingSound[Math.floor(Math.random() * losingSound.length)];
     var audio = new Audio(randomSound);
     audio.play();
